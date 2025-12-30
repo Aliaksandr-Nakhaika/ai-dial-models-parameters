@@ -20,6 +20,7 @@ def run(
     conversation = Conversation()
     conversation.add_message(Message(Role.SYSTEM, DEFAULT_SYSTEM_PROMPT))
 
+    print(f"You use a model '{deployment_name}'")
     print("Type your question or 'exit' to quit.")
     while True:
         user_input = input("> ").strip()
