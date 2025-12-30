@@ -77,7 +77,7 @@ Practice with other parameters from OpenAI and Anthropic. For instance OpenAI ha
 
 Pay attention that we are using DIAL Unified protol and all parameters that are not present in here https://dialx.ai/dial_api#operation/sendChatCompletionRequest 
 must be provided as `{"custom_fields": {"configuration": {CUSTOM_PARAMETERS} }}`. More about `custom_fields` read here https://dialx.ai/dial_api#operation/sendChatCompletionRequest 
-it is the last parameter described in documentation!
+it is the last parameter described in documentation.
 
 ---
 
