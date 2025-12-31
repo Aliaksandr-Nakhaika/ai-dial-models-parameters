@@ -6,6 +6,11 @@ from task.app.main import run
 
 run(
     deployment_name='gpt-4o',
+    print_request=True, # Switch to False if you do not want to see the request in console
+#    print_only_content=True, # Switch to True if you want to see only content from response
+    print_only_content=False, # Switch to True if you want to see only content from response
+    max_tokens = 10,
+
     # TODO:
     #  Use `max_tokens` parameter with value 10
 )
