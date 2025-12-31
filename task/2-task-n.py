@@ -14,6 +14,15 @@ run(
     # TODO:
     #  1. Provide `deployment_name` with model from the list above👆
     #  2. Use `n` parameter with value in range from 1 to 5!
+#    deployment_name='gpt-4o',
+#    deployment_name='claude-3-7-sonnet@20250219',
+    deployment_name='gemini-2.5-pro',
+#    print_request=False, # Switch to False if you do not want to see the request in console
+    print_request=True, # Switch to False if you do not want to see the request in console
+    print_only_content=False, # Switch to True if you want to see only content from response
+#    print_only_content=True, # Switch to True if you want to see only content from response
+    n = 3,
+
 )
 
 # Pay attention to the number of choices in the response!
