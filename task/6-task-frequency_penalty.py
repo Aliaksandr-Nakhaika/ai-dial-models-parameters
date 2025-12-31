@@ -10,7 +10,9 @@ from task.app.main import run
 
 run(
     deployment_name='gpt-4o',
+    print_request=True, # Switch to False if you do not want to see the request in console
     print_only_content=True,
+    frequency_penalty = 2,
     # TODO:
     #  Use `frequency_penalty` parameter with different range (-2.0 to 2.0).
 )
